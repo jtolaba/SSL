@@ -7,10 +7,12 @@ This is free software; see the source for copying conditions.
 ```
 ## Compilación y ejecución del programa
 ```bash
-../SSL/00-ChelloWorld> gcc -std=c23 hello.c -o programa
-../SSL/00-ChelloWorld> ls
+00-ChelloWorld> gcc -std=c2x hello.c -o programa
+00-ChelloWorld> ls
       README.md  hello.c  programa
-../SSL/00-ChelloWorld>./programa 
+00-ChelloWorld> ./programa 
       Hola Jorge Ismael Tolaba
-../SSL/00-ChelloWorld> rm programa 
+00-ChelloWorld> ./programa > output.txt
+00-ChelloWorld> cat output.txt
+      Hola Jorge Ismael Tolaba
 ```

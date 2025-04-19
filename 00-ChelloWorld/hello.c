@@ -3,19 +3,6 @@
 
 int main()
 {
-    FILE *archivo = fopen("output.txt", "w");
-    if (archivo == NULL)
-    {
-        perror("Error al abrir el archivo");
-    }
-
-    char mensaje[] = "Hola Jorge Ismael Tolaba";
-
-    fprintf(stdout, "%s\n", mensaje);
-
-    fprintf(archivo, "%s\n", mensaje);
-
-    fclose(archivo);
-
+    printf("Hola Jorge Ismael Tolaba\n");
     return 0;
 }
